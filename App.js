@@ -21,7 +21,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 5001;
 
 app.get("/", async (req, res) => {
-  res.status(200).send("Ok");
+  res.send("I Am Live ....")
 });
 
 app.post("/", async (req, res) => {
